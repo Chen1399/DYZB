@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1820536E1F6A51E90080EBFA /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820536D1F6A51E90080EBFA /* PageContentView.swift */; };
+		182053701F6A579E0080EBFA /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820536F1F6A579E0080EBFA /* UIColor-Extension.swift */; };
 		18F24ACC1F5FE8E3001EAC74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F24ACB1F5FE8E3001EAC74 /* AppDelegate.swift */; };
 		18F24AD11F5FE8E3001EAC74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F24ACF1F5FE8E3001EAC74 /* Main.storyboard */; };
 		18F24AD31F5FE8E3001EAC74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F24AD21F5FE8E3001EAC74 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 		18F24B151F60F2AB001EAC74 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F24B121F60F2AB001EAC74 /* MainViewController.swift */; };
 		18F24B171F60F3EB001EAC74 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F24B161F60F3EB001EAC74 /* HomeViewController.swift */; };
 		18F24B1A1F613DBB001EAC74 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F24B191F613DBB001EAC74 /* UIBarButtonItem-Extension.swift */; };
+		18F24B1C1F6292DF001EAC74 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F24B1B1F6292DE001EAC74 /* PageTitleView.swift */; };
+		18F24B1E1F63BA23001EAC74 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F24B1D1F63BA23001EAC74 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1820536D1F6A51E90080EBFA /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		1820536F1F6A579E0080EBFA /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 		18F24AC81F5FE8E3001EAC74 /* DouYuZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F24ACB1F5FE8E3001EAC74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18F24AD01F5FE8E3001EAC74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -59,6 +65,8 @@
 		18F24B121F60F2AB001EAC74 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		18F24B161F60F3EB001EAC74 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		18F24B191F613DBB001EAC74 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		18F24B1B1F6292DE001EAC74 /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		18F24B1D1F63BA23001EAC74 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				18F24B181F613D79001EAC74 /* Extension */,
+				18F24B1D1F63BA23001EAC74 /* Common.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -243,6 +252,8 @@
 		18F24B141F60F2AB001EAC74 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				18F24B1B1F6292DE001EAC74 /* PageTitleView.swift */,
+				1820536D1F6A51E90080EBFA /* PageContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -251,6 +262,7 @@
 			isa = PBXGroup;
 			children = (
 				18F24B191F613DBB001EAC74 /* UIBarButtonItem-Extension.swift */,
+				1820536F1F6A579E0080EBFA /* UIColor-Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -323,6 +335,7 @@
 				TargetAttributes = {
 					18F24AC71F5FE8E3001EAC74 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JQ5KK4Q24T;
 						ProvisioningStyle = Automatic;
 					};
 					18F24ADB1F5FE8E4001EAC74 = {
@@ -394,8 +407,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				18F24B151F60F2AB001EAC74 /* MainViewController.swift in Sources */,
+				182053701F6A579E0080EBFA /* UIColor-Extension.swift in Sources */,
 				18F24ACC1F5FE8E3001EAC74 /* AppDelegate.swift in Sources */,
+				18F24B1C1F6292DF001EAC74 /* PageTitleView.swift in Sources */,
+				1820536E1F6A51E90080EBFA /* PageContentView.swift in Sources */,
 				18F24B1A1F613DBB001EAC74 /* UIBarButtonItem-Extension.swift in Sources */,
+				18F24B1E1F63BA23001EAC74 /* Common.swift in Sources */,
 				18F24B171F60F3EB001EAC74 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -586,7 +603,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = JQ5KK4Q24T;
 				INFOPLIST_FILE = DouYuZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chencision.DouYuZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -599,7 +618,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = JQ5KK4Q24T;
 				INFOPLIST_FILE = DouYuZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chencision.DouYuZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -680,6 +701,7 @@
 				18F24AF21F5FE8E4001EAC74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18F24AF31F5FE8E4001EAC74 /* Build configuration list for PBXNativeTarget "DouYuZBTests" */ = {
 			isa = XCConfigurationList;
@@ -688,6 +710,7 @@
 				18F24AF51F5FE8E4001EAC74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18F24AF61F5FE8E4001EAC74 /* Build configuration list for PBXNativeTarget "DouYuZBUITests" */ = {
 			isa = XCConfigurationList;
@@ -696,6 +719,7 @@
 				18F24AF81F5FE8E4001EAC74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
